@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.panels.InfoPanelController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="66.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="66.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="-Infinity" prefWidth="66.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="24.0" minHeight="24.0" prefHeight="24.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="32.0" minHeight="32.0" prefHeight="32.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="15.0" minHeight="15.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="figureNameLabel" alignment="CENTER" text="Name" textAlignment="CENTER" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="12.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="15.0" prefWidth="277.0" text="Type" textAlignment="CENTER" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel111" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="15.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="15.0" prefWidth="104.0" text="Stroke" textAlignment="CENTER" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel11" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="43.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="15.0" prefWidth="121.0" text="Fill" textAlignment="CENTER" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel13" alignment="CENTER_RIGHT" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="87.0" text="Top Left" textAlignment="RIGHT" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel3" alignment="CENTER_RIGHT" text="Bottom Right" textAlignment="RIGHT" GridPane.halignment="RIGHT" GridPane.rowIndex="6">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel12" alignment="CENTER_RIGHT" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="98.0" text="Dimensions" textAlignment="RIGHT" GridPane.halignment="RIGHT" GridPane.rowIndex="7">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel2" alignment="CENTER_RIGHT" prefHeight="14.0" prefWidth="89.0" text="Center" textAlignment="RIGHT" GridPane.halignment="RIGHT" GridPane.rowIndex="8">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel1112" alignment="CENTER_RIGHT" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="79.0" text="Translation" textAlignment="RIGHT" GridPane.halignment="RIGHT" GridPane.rowIndex="9">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel113" alignment="CENTER_RIGHT" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="76.0" text="Rotation" textAlignment="RIGHT" GridPane.halignment="RIGHT" GridPane.rowIndex="10">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel1111" alignment="CENTER_RIGHT" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="73.0" text="Scale" textAlignment="RIGHT" GridPane.halignment="RIGHT" GridPane.rowIndex="11">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel1121" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="251.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="92.0" text="Y" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="figureNameLabel11211" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="15.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="0.0" text="X" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Circle fx:id="fillColorCircle" fill="DODGERBLUE" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS" />
+      <ImageView fx:id="figureTypeImageView" fitHeight="150.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <image>
+            <Image url="@../../icons/Circle-32.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="edgeColorCircle" fill="DODGERBLUE" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <ImageView fx:id="lineTypeImageView" fitHeight="150.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+         <image>
+            <Image url="@../../icons/Stroke_Solid-32.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="topLeftYLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="107.0" layoutY="131.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="124.0" text="0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="topLeftXLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="126.0" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="bottomRightXLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="154.0" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="widthLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="129.0" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="centerXLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="123.0" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="8">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="translationXLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="129.0" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="rotationLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="214.0" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="10">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="scaleLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="232.0" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="11">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="translationYLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="143.0" text="0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="centerYLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="145.0" text="0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="8">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="heightLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="183.0" text="0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="7">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="bottomRightYLabel" alignment="CENTER" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="14.0" prefWidth="168.0" text="0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>
